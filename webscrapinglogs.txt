@@ -1,0 +1,899 @@
+**** BEGIN LOGGING AT Thu Dec 15 21:24:11 2016
+
+**** BEGIN LOGGING AT Thu Dec 15 21:24:11 2016
+
+Dec 15 21:26:51 *	ujdcodr (6a3319c0@gateway/web/freenode/ip.106.51.25.192) has joined #wcmentor16
+Dec 15 21:27:02 *	pooja (b757d50a@gateway/web/freenode/ip.183.87.213.10) has joined #wcmentor16
+Dec 15 21:27:22 *	Puneet (75c6761c@gateway/web/freenode/ip.117.198.118.28) has joined #wcmentor16
+Dec 15 21:27:29 *	Ashwin (9d312773@gateway/web/freenode/ip.157.49.39.115) has joined #wcmentor16
+Dec 15 21:27:47 <Ashwin>	Hello!
+Dec 15 21:28:00 <pooja>	Hii
+Dec 15 21:28:43 <Puneet>	hi
+Dec 15 21:28:58 *	tushaar (~tushaar@157.49.67.98) has joined #wcmentor16
+Dec 15 21:30:24 *	Anirudh (75c067de@gateway/web/freenode/ip.117.192.103.222) has joined #wcmentor16
+Dec 15 21:30:40 <aparna>	Hey everyone, we will be starting in 5 minutes.
+Dec 15 21:30:47 <pooja>	Cool
+Dec 15 21:30:52 *	neha (9d31b6f6@gateway/web/freenode/ip.157.49.182.246) has joined #wcmentor16
+Dec 15 21:31:08 *	niharock69 (56610d6c@gateway/web/freenode/ip.86.97.13.108) has joined #wcmentor16
+Dec 15 21:31:11 *	Shivani (673d5447@gateway/web/freenode/ip.103.61.84.71) has joined #wcmentor16
+**** BEGIN LOGGING AT Thu Dec 15 21:31:25 2016
+
+Dec 15 21:32:11 <niharock69>	when is the session starting?
+Dec 15 21:32:39 *	shruthi (9d31f9d3@gateway/web/freenode/ip.157.49.249.211) has joined #wcmentor16
+Dec 15 21:32:42 <neha>	We shall start in another 5 minutes.
+Dec 15 21:33:01 <niharock69>	:)
+Dec 15 21:34:00 <ujdcodr>	https://www.youtube.com/watch?v=aIPqt-OdmS0&list=PLQVvvaa0QuDfV1MIRBOcqClP6VZXsvyZS&index=1
+Dec 15 21:34:01 <neha>	we'll start
+Dec 15 21:34:03 <aparna>	yea ok
+Dec 15 21:34:11 <ujdcodr>	install beautiful soup
+Dec 15 21:34:11 <aparna>	ok we shall start
+Dec 15 21:34:30 *	Pavana (653d8488@gateway/web/freenode/ip.101.61.132.136) has joined #wcmentor16
+Dec 15 21:34:38 <aparna>	Hi all, I am Aparna, 3rd year IT
+Dec 15 21:34:43 *	vilas (ca0c500a@gateway/web/freenode/ip.202.12.80.10) has joined #wcmentor16
+Dec 15 21:35:11 *	tonyStark (75d8ec92@gateway/web/freenode/ip.117.216.236.146) has joined #wcmentor16
+Dec 15 21:35:11 <neha>	Myself, Neha, 3rd year IT
+Dec 15 21:35:28 *	omkarp (~Thunderbi@120.62.189.155) has joined #wcmentor16
+Dec 15 21:35:36 <aparna>	So do you guys already know Python?
+Dec 15 21:35:46 <pooja>	yup
+Dec 15 21:35:51 <neha>	Today we shall discuss about web scraping using Python, i.e. using beautifulsoup module
+Dec 15 21:36:08 <tonyStark>	Hello, myself Ishaan. 1st Year Comp
+Dec 15 21:36:16 <neha>	Anybody who is not familiar with Python?
+Dec 15 21:36:27 <aparna>	Please respond guys
+Dec 15 21:36:35 <tonyStark>	I'm not familiar
+Dec 15 21:36:39 <Anirudh>	Yes i am not familiar
+Dec 15 21:36:42 *	himadri (~himadri@182.57.89.2) has joined #wcmentor16
+Dec 15 21:36:48 <neha>	Cool.
+Dec 15 21:36:49 *	shreyansh (31237cbc@gateway/web/freenode/ip.49.35.124.188) has joined #wcmentor16
+Dec 15 21:36:54 <Pavana>	Aim not familiar
+Dec 15 21:36:54 <tushaar>	I'm not very good at it.
+Dec 15 21:36:55 <niharock69>	not familiar
+Dec 15 21:37:05 <niharock69>	how are we gng to install beautiful soup?
+Dec 15 21:37:06 <aparna>	ok, so we will start from basics
+Dec 15 21:37:08 <neha>	The flow of today's session will be something like this then
+Dec 15 21:37:33 <neha>	Basics of Python, Basics of HTML, finally web scraping using bs
+Dec 15 21:37:49 <aparna>	@niharock69, we will be getting to that
+Dec 15 21:37:57 <tonyStark>	Okay
+Dec 15 21:37:59 <neha>	Others can go take a break and join us later :P
+Dec 15 21:38:12 <neha>	In case already familiar with the 1st two.
+Dec 15 21:38:12 <pooja>	sure
+Dec 15 21:38:30 <vilas>	ok! 
+Dec 15 21:38:33 <pooja>	Till what time
+Dec 15 21:38:35 <pooja>	?
+Dec 15 21:38:43 <neha>	share that link
+Dec 15 21:38:54 <aparna>	yea wait
+Dec 15 21:39:01 <neha>	Say for 2 hours max.
+Dec 15 21:39:11 <pooja>	I mean break :P
+Dec 15 21:39:41 <neha>	Join us after an hour.
+Dec 15 21:39:44 *	himadri has quit (Client Quit)
+Dec 15 21:39:49 <pooja>	okay
+Dec 15 21:39:53 <aparna>	Ok guys, we will be talking everything in reference to this: https://github.com/lapa19/wcmentor16
+Dec 15 21:40:14 *	himadri (~himadri@182.57.89.2) has joined #wcmentor16
+Dec 15 21:40:18 <aparna>	open that link
+Dec 15 21:40:23 <aparna>	go to flow.py
+Dec 15 21:40:28 <aparna>	we will start with that
+Dec 15 21:40:33 <tonyStark>	ok!
+Dec 15 21:40:53 <niharock69>	done
+Dec 15 21:40:59 <neha>	Everyone there?
+Dec 15 21:41:02 <neha>	good.
+Dec 15 21:41:46 <neha>	You guys are familiar with C syntax right?
+Dec 15 21:41:53 <tushaar>	Yup.
+Dec 15 21:41:55 <shreyansh>	yup
+Dec 15 21:41:56 <niharock69>	yes
+Dec 15 21:42:02 <Pavana>	Yup
+Dec 15 21:42:03 <Shivani>	yes
+Dec 15 21:42:07 <tonyStark>	yes
+Dec 15 21:42:07 <Anirudh>	yes
+Dec 15 21:42:10 <omkarp>	yes
+Dec 15 21:42:15 *	ranjith (~ranjith@106.51.130.206) has joined #wcmentor16
+Dec 15 21:42:20 <neha>	In Python you don't declare the data type for any given variable explicitly.
+**** BEGIN LOGGING AT Thu Dec 15 21:42:25 2016
+
+Dec 15 21:42:49 <neha>	You just write the variable name, assign whatever value you want, to it.
+Dec 15 21:43:05 <aparna>	For those who joined now, here is the link: https://github.com/lapa19/wcmentor16
+Dec 15 21:43:13 <aparna>	go to flow.py
+Dec 15 21:43:35 <neha>	Lines 2-8 in that file, show that.
+Dec 15 21:44:02 <aparna>	so pi is float
+Dec 15 21:44:03 <neha>	and you use the 'print' command to output the result on std output.
+Dec 15 21:44:09 <aparna>	a is int 
+Dec 15 21:44:24 <aparna>	my_name is string and so on
+Dec 15 21:44:58 <neha>	and anything with '#' before it, becomes a comment statement 
+Dec 15 21:45:00 <niharock69>	how have u declared my_var as an integer and a string?
+Dec 15 21:45:18 <neha>	it is not 'and'
+Dec 15 21:45:32 <neha>	It is initially an integer
+Dec 15 21:45:42 <tonyStark>	so my_var now becomes a string?
+Dec 15 21:45:45 *	vilas (ca0c500a@gateway/web/freenode/ip.202.12.80.10) has left #wcmentor16
+Dec 15 21:45:45 <neha>	when you assign a string it becomes a string.
+Dec 15 21:45:53 <neha>	Yes.
+Dec 15 21:46:02 <aparna>	whatever you assign to a variable, its type becomes that
+Dec 15 21:46:10 <aparna>	thats what lines 7-8 show.
+Dec 15 21:46:14 <tonyStark>	how does x[-1] return p?
+Dec 15 21:46:16 <neha>	You don't specify data types "explicitly"
+Dec 15 21:46:50 <aparna>	@tonyStark, wait :P
+Dec 15 21:46:51 <niharock69>	and how do we know that the statement is complete as theres no semicolon used for termination of a statement unlike C
+Dec 15 21:46:55 <neha>	Now come to line 13
+Dec 15 21:47:09 <tonyStark>	okay! sorry :D
+Dec 15 21:47:27 <neha>	Indentation is very important in Python
+Dec 15 21:47:56 <aparna>	@niharock69, when u start on a new line, it becomes a new statement
+Dec 15 21:47:59 <neha>	That is how the statements and blocks are separated in Python
+Dec 15 21:48:03 <niharock69>	ok
+Dec 15 21:48:36 <neha>	Any other doubts in 2-8?
+Dec 15 21:48:37 <aparna>	semicolons can be put in Python also, not necessary
+Dec 15 21:49:18 <omkarp>	oh!
+Dec 15 21:49:24 <aparna>	Everyone understood?
+Dec 15 21:49:33 <aparna>	Please respond.
+Dec 15 21:49:35 <tushaar>	Yeah.
+Dec 15 21:49:35 <niharock69>	yes
+Dec 15 21:49:36 <Shivani>	yes
+Dec 15 21:49:36 <Anirudh>	will ad ecimal be stored as float or double
+Dec 15 21:49:42 <Pavana>	Yes
+Dec 15 21:49:48 <Ashwin>	Yup
+Dec 15 21:49:49 <tonyStark>	yes
+Dec 15 21:49:54 <shreyansh>	yes
+Dec 15 21:51:25 <aparna>	double precision is used to store values @Anirudh
+Dec 15 21:51:50 <Anirudh>	oh ok
+Dec 15 21:51:51 <aparna>	So we will move on
+Dec 15 21:52:27 <aparna>	So you must be familiar with strings in C right?
+Dec 15 21:52:39 <Ashwin>	Yup
+Dec 15 21:52:42 <Shivani>	yes
+Dec 15 21:52:42 <aparna>	oye starting?
+Dec 15 21:52:43 <tonyStark>	yes
+Dec 15 21:52:45 <omkarp>	yes
+Dec 15 21:52:46 <neha>	You can concat 2 strings in Python by using '+'
+Dec 15 21:52:52 <Anirudh>	yes
+Dec 15 21:52:53 <neha>	haan :P
+Dec 15 21:52:56 <omkarp>	ok
+Dec 15 21:53:03 <Pavana>	Yes
+Dec 15 21:53:06 <neha>	Check lines 13 onward
+Dec 15 21:53:11 <neha>	x='ap'
+Dec 15 21:53:17 <neha>	y='arna'
+Dec 15 21:53:37 <neha>	You just say x+y to concat the 2.
+Dec 15 21:53:38 <niharock69>	x+y is stored in what? in x?
+Dec 15 21:53:44 <aparna>	no
+Dec 15 21:53:52 <aparna>	it is not assigned
+Dec 15 21:53:53 <neha>	Stored in nothing.
+Dec 15 21:54:16 <neha>	You can store it in another variable like z=x+y
+Dec 15 21:54:19 <aparna>	that is just to show how concatenation is done
+Dec 15 21:54:31 <niharock69>	ok
+Dec 15 21:55:05 <aparna>	Do you have Python installed on your systems?
+Dec 15 21:55:07 *	amit705 (8b0532d1@gateway/web/freenode/ip.139.5.50.209) has joined #wcmentor16
+Dec 15 21:55:11 *	aup19 (~akshayupr@157.49.200.56) has joined #wcmentor16
+Dec 15 21:55:14 <niharock69>	no
+Dec 15 21:55:21 <Ashwin>	Yup
+Dec 15 21:55:21 <Pavana>	No
+Dec 15 21:55:22 <Anirudh>	yes
+Dec 15 21:55:24 <Shivani>	no
+Dec 15 21:55:26 <tonyStark>	no
+Dec 15 21:55:28 <neha>	Okay now, assuming all of you have Ubuntu, 
+Dec 15 21:55:28 <omkarp>	yes
+Dec 15 21:55:33 <neha>	go type python on the terminal
+Dec 15 21:55:42 <tonyStark>	okay
+Dec 15 21:55:42 <niharock69>	windows :'(
+Dec 15 21:55:46 <aparna>	Python works best with ubuntu
+Dec 15 21:55:54 <aparna>	on windows, its a pain
+Dec 15 21:56:13 <aparna>	For these small exercises you can use windows also
+Dec 15 21:56:18 <aparna>	no problem
+Dec 15 21:56:25 <Ashwin>	Is it fine with virtual machine?
+Dec 15 21:56:54 *	Puneet has quit (Quit: Page closed)
+Dec 15 21:57:05 <neha>	Try installing some Python IDE @niharock69
+Dec 15 21:57:19 <neha>	Spyder/PyCharm
+Dec 15 21:57:28 <aparna>	You can install Anaconda
+Dec 15 21:57:42 <aparna>	It has Spyder etc.
+Dec 15 21:58:02 *	Nibir (7aab9c09@gateway/web/freenode/ip.122.171.156.9) has joined #wcmentor16
+Dec 15 21:58:11 <aparna>	Anaconda is for windows users
+Dec 15 21:58:12 <neha>	It will take a while. Just keep that going on one side.
+Dec 15 21:58:24 <aparna>	ubuntu comes with python installed
+Dec 15 21:59:04 <neha>	Ubuntu guys, when you type python, you either get the version of python displayed or you get the command to install
+Dec 15 21:59:14 <neha>	Yeah
+Dec 15 21:59:21 *	ujdcodr has quit ()
+Dec 15 21:59:32 <aparna>	@Ashwin, it should work on vm also, but i wont recommend it.
+Dec 15 21:59:44 <neha>	We shall proceed with the code now.
+Dec 15 22:00:21 <neha>	Just like C, you can use indices to get individual elements of a string
+Dec 15 22:00:30 <neha>	x[0] returns 'a'
+Dec 15 22:01:41 *	puneet (75c6761c@gateway/web/freenode/ip.117.198.118.28) has joined #wcmentor16
+Dec 15 22:01:52 <neha>	Now tell me how do you access the last element of a string in C?
+Dec 15 22:02:13 <neha>	Come on, you need to respond people
+Dec 15 22:02:28 <Shivani>	x[length-1]
+Dec 15 22:02:34 <Ashwin>	x[n-1]
+Dec 15 22:02:47 <neha>	Yeah so you need to know n for it.
+Dec 15 22:02:57 <neha>	that is the string length
+Dec 15 22:03:11 <neha>	But in python you just say x[-1]
+Dec 15 22:03:14 <shreyansh>	x[l-1] where l=length
+Dec 15 22:03:17 <neha>	to get the last element
+Dec 15 22:03:21 <omkarp>	ok
+Dec 15 22:03:28 <tonyStark>	ok! got it
+Dec 15 22:03:38 <neha>	x[-2] to get the second-last element and so on.
+Dec 15 22:03:49 <niharock69>	yes got it
+Dec 15 22:03:54 <neha>	Haha @tonyStark
+Dec 15 22:04:05 <neha>	Had to wait this long :P
+Dec 15 22:04:15 <aparna>	so python supports negative indexing also.
+Dec 15 22:04:21 <Ashwin>	Will the first element have 2 indices?
+Dec 15 22:04:27 <tonyStark>	it was worth the wait :D
+Dec 15 22:04:53 <aparna>	@Ashwin, you mean string x?
+Dec 15 22:04:54 <neha>	@Ashwin what do you mean by 2 indices?
+Dec 15 22:05:18 <Ashwin>	x(0) and one we get from -ve indexing
+Dec 15 22:05:21 <tonyStark>	can there be 2 indices for one element of a string?
+Dec 15 22:05:49 <aparna>	oh that way, yes @Ashwin
+Dec 15 22:06:06 <aparna>	x[0] and x[-2] will give 'a'
+Dec 15 22:06:06 <Ashwin>	Oh..
+Dec 15 22:06:15 <Ashwin>	Cool
+Dec 15 22:06:16 <neha>	Yeah it is just two different ways to access the same 
+Dec 15 22:06:17 <tonyStark>	cool
+Dec 15 22:06:35 <neha>	Now, y[0:2]
+Dec 15 22:07:07 <neha>	Here, the first element, 0 says start from '0'th position
+Dec 15 22:07:31 *	pooja has quit (Ping timeout: 260 seconds)
+Dec 15 22:07:34 <neha>	and the second, '2' says the length of substring to be extracted from that position
+Dec 15 22:07:45 <neha>	y='arna'
+Dec 15 22:08:02 *	vilas (ca0c500a@gateway/web/freenode/ip.202.12.80.10) has joined #wcmentor16
+Dec 15 22:08:06 *	shreyansh has quit (Ping timeout: 260 seconds)
+Dec 15 22:08:07 <neha>	So you say starting fro '0'th position, get a string of length 2
+Dec 15 22:08:15 <neha>	That gives, 'ar'
+Dec 15 22:08:19 <neha>	Clear?
+Dec 15 22:08:26 <Anirudh>	yes
+Dec 15 22:08:27 <Ashwin>	Yup
+Dec 15 22:08:32 <Shivani>	yes
+Dec 15 22:08:34 <Pavana>	Yes
+Dec 15 22:08:44 <tonyStark>	yes
+Dec 15 22:08:47 <omkarp>	yes
+Dec 15 22:09:04 <neha>	'len' gives length of the parameter passed.
+Dec 15 22:09:17 <neha>	Moving to line 25.
+Dec 15 22:10:02 <Ashwin>	What all can be it's parameter?
+Dec 15 22:10:16 <aparna>	for len?
+Dec 15 22:10:24 <Ashwin>	Yea
+Dec 15 22:10:49 <aparna>	you can pass other data structures like lists 
+Dec 15 22:10:55 <aparna>	set
+Dec 15 22:11:06 <aparna>	we will be discussing these
+Dec 15 22:11:31 *	shreyansh (31237cbc@gateway/web/freenode/ip.49.35.124.188) has joined #wcmentor16
+Dec 15 22:12:07 <aparna>	ok, so lists
+Dec 15 22:12:26 <aparna>	they are like arrays in C
+Dec 15 22:12:42 <neha>	Well, got a correction there
+Dec 15 22:13:02 <neha>	'2' states the ending index (excluded) and not the length
+Dec 15 22:13:16 <neha>	Bad at remembering these syntax :P
+Dec 15 22:13:27 <Ashwin>	Cool :)
+Dec 15 22:13:35 <shreyansh>	lol..
+Dec 15 22:13:43 <tonyStark>	understood!
+Dec 15 22:13:45 <neha>	So y='arna' y[1:3]
+Dec 15 22:13:56 <neha>	Tell me what is the output?
+Dec 15 22:13:58 <tonyStark>	rna
+Dec 15 22:14:18 <niharock69>	rn
+Dec 15 22:14:30 <shreyansh>	rna
+Dec 15 22:14:32 <neha>	Correct @niharock69
+Dec 15 22:14:44 <shreyansh>	oop ..rn
+Dec 15 22:14:55 <tonyStark>	oops!
+Dec 15 22:15:07 <aparna>	and this property is called 'slicing'
+Dec 15 22:15:16 <neha>	Okay, sorry about that again :P
+Dec 15 22:15:25 <neha>	range slicing, to be more specific
+Dec 15 22:15:40 <neha>	Because you specify the range.
+Dec 15 22:15:52 <neha>	Back to lists.
+Dec 15 22:16:51 <aparna>	line 25
+Dec 15 22:17:06 <aparna>	that is declaration of a list
+Dec 15 22:17:11 *	Ashwin_ (9d312773@gateway/web/freenode/ip.157.49.39.115) has joined #wcmentor16
+Dec 15 22:17:39 <aparna>	arrays in c are homogeneous
+Dec 15 22:17:51 *	shreyansh_ (31237cbc@gateway/web/freenode/ip.49.35.124.188) has joined #wcmentor16
+Dec 15 22:17:56 <aparna>	but lists can have elements of different data types
+Dec 15 22:18:01 *	Ashwin has quit (Ping timeout: 260 seconds)
+Dec 15 22:18:02 <aparna>	line 26
+Dec 15 22:18:22 <aparna>	declare list diff with different data types
+Dec 15 22:18:35 *	vilas has quit (Quit: Page closed)
+Dec 15 22:19:11 *	shreyansh has quit (Ping timeout: 260 seconds)
+Dec 15 22:19:17 <aparna>	indexing is done the same way
+Dec 15 22:19:43 <aparna>	mylist = [1, 4, 9, 16, 25]
+Dec 15 22:19:51 <aparna>	mylist[1] gives 4
+Dec 15 22:20:01 <aparna>	slicing is also similar
+Dec 15 22:20:06 <tonyStark>	ok!
+Dec 15 22:20:14 <aparna>	2 lists also can be concatenated with +
+Dec 15 22:20:18 <aparna>	just like strings
+Dec 15 22:20:37 <aparna>	lines 28-30
+Dec 15 22:20:54 <Anirudh>	but in concatenation wont the 9 come twice
+Dec 15 22:21:12 <aparna>	yes it will
+Dec 15 22:21:22 <aparna>	sorry, mistake :p
+Dec 15 22:21:40 <aparna>	length can be found with len
+Dec 15 22:22:11 <neha>	9 does come twice.
+Dec 15 22:22:12 <aparna>	lists support many functions like append,pop etc
+Dec 15 22:22:40 <aparna>	append inserts at the end of a list
+Dec 15 22:22:53 <aparna>	pop removes element at the specified index
+Dec 15 22:24:07 <aparna>	there are functions like insert, reverse etc.
+Dec 15 22:24:15 <aparna>	we will share a few links
+Dec 15 22:24:21 <aparna>	you can go through them later
+Dec 15 22:24:30 <tonyStark>	so after popping, all the elements coming after it are shifted towards the left?
+Dec 15 22:24:37 <aparna>	yes
+Dec 15 22:24:48 <niharock69>	ok
+Dec 15 22:24:50 <aparna>	length decreases by 1
+Dec 15 22:24:53 <tonyStark>	ok!
+Dec 15 22:24:59 <neha>	There are many other functions that can be used to alter lists
+Dec 15 22:25:18 <neha>	del list1[1]
+Dec 15 22:25:29 <aparna>	ok, next data structure is tuple
+Dec 15 22:25:43 <neha>	deletes the 2nd element in list1
+Dec 15 22:25:55 <aparna>	yeah
+Dec 15 22:25:59 <neha>	Moving on to tuple.
+Dec 15 22:26:24 <aparna>	so tuple is also like a list
+Dec 15 22:26:34 <aparna>	but it is immutable
+Dec 15 22:26:51 <neha>	Immutable = "Rigid"
+Dec 15 22:27:01 <aparna>	so in a list, you can make changes like list[3]=10
+Dec 15 22:27:12 <aparna>	but in a tuple that is not allowed
+Dec 15 22:27:15 <neha>	Lists on the other hand are mutable.
+Dec 15 22:27:24 <tonyStark>	ohh.. ok
+Dec 15 22:27:40 <aparna>	so lists are mutable, tuples immutable
+Dec 15 22:27:50 <Anirudh>	okay
+Dec 15 22:27:51 <neha>	Also, you have to delete the entire tuple. Individual elements cannot be deleted separately.
+Dec 15 22:28:23 <aparna>	so declaration is shown in line 38
+Dec 15 22:29:12 <neha>	We will be faster now. Cool?
+Dec 15 22:29:17 <aparna>	indexing and slicing are allowed again
+Dec 15 22:29:20 <tonyStark>	yeah
+Dec 15 22:29:24 <shreyansh_>	yup
+Dec 15 22:29:33 <Shivani>	yes
+Dec 15 22:29:34 <aparna>	so next data structure dictionaries
+Dec 15 22:29:45 <aparna>	see 42-43
+Dec 15 22:30:03 <aparna>	dictionaries are basically key-value pairs
+Dec 15 22:30:10 *	omkarp (~Thunderbi@120.62.189.155) has left #wcmentor16
+Dec 15 22:30:21 *	omkarp (~Thunderbi@120.62.189.155) has joined #wcmentor16
+Dec 15 22:30:24 *	ujdcodr (6a3319c0@gateway/web/freenode/ip.106.51.25.192) has joined #wcmentor16
+Dec 15 22:30:27 <aparna>	keys are virat,vijay, jayant
+Dec 15 22:30:47 <aparna>	corresponding values are 103,30 and 26
+Dec 15 22:30:59 <aparna>	next data structure: sets
+Dec 15 22:31:15 <aparna>	sets are basically used to remove duplicates
+Dec 15 22:31:49 <tonyStark>	ok
+Dec 15 22:32:04 <aparna>	so when u print s, 3 is printed only once
+Dec 15 22:32:15 <niharock69>	ok
+Dec 15 22:32:29 <Anirudh>	can slicing and concatenation be done in sets as well
+Dec 15 22:32:36 <neha>	Control flow statements are similar to C
+Dec 15 22:32:38 <aparna>	yes
+Dec 15 22:32:46 <neha>	if if else 
+Dec 15 22:32:53 <Ashwin_>	How to declare a set?
+Dec 15 22:33:06 <aparna>	enclose in curly braces
+Dec 15 22:33:10 <aparna>	line 47
+Dec 15 22:33:16 <neha>	for while
+Dec 15 22:33:16 <Ashwin_>	Cool.
+Dec 15 22:33:44 <aparna>	see lines 52-60
+Dec 15 22:33:49 <Anirudh>	how are strings concatenated
+Dec 15 22:33:50 <neha>	Line 52
+Dec 15 22:33:56 <shreyansh_>	':' ?
+Dec 15 22:34:00 <aparna>	that is the basic syntax for if-else statements in python
+Dec 15 22:34:01 <Anirudh>	sets***
+Dec 15 22:34:21 *	Pavana has quit (Ping timeout: 260 seconds)
+Dec 15 22:34:40 <shreyansh_>	okay
+Dec 15 22:34:58 <aparna>	concatenation is not supported for sets
+Dec 15 22:35:14 <Anirudh>	oh okay thank you
+Dec 15 22:35:18 <neha>	A.union(B)
+Dec 15 22:35:29 <neha>	You can use that.
+Dec 15 22:35:39 <neha>	Shall we proceed?
+Dec 15 22:35:41 <aparna>	right, + operator is not supported
+Dec 15 22:35:55 <shreyansh_>	yes
+Dec 15 22:36:01 <neha>	Cool.
+Dec 15 22:36:23 <neha>	As I had mentioned, indentation is "very" important in Python
+Dec 15 22:36:45 <neha>	as you can see in the code, it is properly indented.
+Dec 15 22:37:01 <neha>	if condition:
+Dec 15 22:37:24 <neha>	*indent* your statements
+Dec 15 22:37:32 *	Pavana (653d8488@gateway/web/freenode/ip.101.61.132.136) has joined #wcmentor16
+Dec 15 22:38:18 <neha>	There is another keyword "elif" short for else if
+Dec 15 22:38:38 <neha>	if may or may not be followed by else
+Dec 15 22:38:54 <aparna>	like C
+Dec 15 22:38:57 <neha>	but if there is at least one elif, there should be one finishing else
+Dec 15 22:39:06 <neha>	Cool?
+Dec 15 22:39:11 <tonyStark>	cool
+Dec 15 22:39:11 <niharock69>	okkk
+Dec 15 22:39:18 <Ashwin_>	Yup
+Dec 15 22:39:18 <Anirudh>	cool
+Dec 15 22:39:20 <neha>	Moving on
+Dec 15 22:39:25 <neha>	for is similar
+Dec 15 22:39:50 <neha>	for i in c:
+Dec 15 22:39:53 <neha>	print(i)
+Dec 15 22:40:04 <aparna>	here, c is my list
+Dec 15 22:40:08 <neha>	prints all the elements in c, in order
+Dec 15 22:40:24 <tonyStark>	ok!
+Dec 15 22:40:36 <Anirudh>	ok
+Dec 15 22:40:47 *	Nibir has quit (Quit: Page closed)
+Dec 15 22:41:37 <aparna>	oye starting??
+Dec 15 22:41:49 <neha>	range is another in built function
+Dec 15 22:42:08 <neha>	range(5) gives [0 1...4]
+Dec 15 22:42:17 <neha>	for i in range(5):
+Dec 15 22:42:26 <neha>	print(i)
+Dec 15 22:43:02 <aparna>	range(3,6) return a list containing [3,4,5]
+Dec 15 22:43:06 <aparna>	returns*
+Dec 15 22:43:17 <tonyStark>	okay
+Dec 15 22:43:21 <niharock69>	ok
+Dec 15 22:43:37 *	amit705 has quit (Quit: Page closed)
+Dec 15 22:43:54 <aparna>	so there are 2 ways to print elements of a list
+Dec 15 22:44:03 <aparna>	one is 63-64
+Dec 15 22:44:13 <aparna>	another is 71-72
+Dec 15 22:44:28 *	vilas (ca0c500a@gateway/web/freenode/ip.202.12.80.10) has joined #wcmentor16
+Dec 15 22:44:54 <aparna>	so you have while loops like in c
+Dec 15 22:44:58 <aparna>	76-78
+Dec 15 22:45:11 <aparna>	and keywords like break and continue
+Dec 15 22:45:30 <Anirudh>	here in for i gets incremented by 1 right
+Dec 15 22:45:51 <aparna>	yes
+Dec 15 22:46:08 <Anirudh>	how do we increment for @, # etc
+Dec 15 22:46:13 <Anirudh>	2,3**
+Dec 15 22:46:49 *	neha___ (9d31b640@gateway/web/freenode/ip.157.49.182.64) has joined #wcmentor16
+Dec 15 22:47:11 *	neha has quit (Ping timeout: 260 seconds)
+Dec 15 22:47:11 *	neha has quit (Ping timeout: 260 seconds)
+Dec 15 22:47:34 <aparna>	you can use a while loop for that
+Dec 15 22:47:36 <neha___>	Sorry, poor connection.
+Dec 15 22:48:00 <neha___>	You can iterate through more than one lists say
+Dec 15 22:48:04 <neha___>	at the same time
+Dec 15 22:48:15 <neha___>	Use 'zip' for that.
+Dec 15 22:48:27 <neha___>	84-87
+**** BEGIN LOGGING AT Thu Dec 15 22:49:00 2016
+
+Dec 15 22:49:17 <neha___>	Functions.
+Dec 15 22:49:37 <neha___>	def keyword is used for function definition
+Dec 15 22:49:53 <neha___>	90-94
+Dec 15 22:50:04 <neha___>	function to check if the number passed is odd.
+Dec 15 22:50:08 <aparna>	function name is odd
+Dec 15 22:50:12 <aparna>	num is a parameter
+Dec 15 22:50:20 <neha___>	def functionname(parameter/s):
+Dec 15 22:50:34 <neha___>	*indent*function definition
+Dec 15 22:50:40 *	shreyansh_ has quit (Ping timeout: 260 seconds)
+Dec 15 22:51:08 <tonyStark>	ok!
+Dec 15 22:51:22 <Anirudh>	okay
+Dec 15 22:51:23 <aparna>	function call can be done by res=odd(5)
+Dec 15 22:51:35 <aparna>	next modules
+Dec 15 22:51:49 <aparna>	modules are basically python files
+Dec 15 22:52:03 *	shreyansh (31237cbc@gateway/web/freenode/ip.49.35.124.188) has joined #wcmentor16
+Dec 15 22:52:09 <aparna>	python files have the extension .py
+Dec 15 22:52:21 <aparna>	line 100-112
+Dec 15 22:52:39 <aparna>	2 functions are defined : odd and prime
+Dec 15 22:53:05 <niharock69>	what is math.ceil
+Dec 15 22:53:10 <aparna>	you can use these functions in other python scripts
+Dec 15 22:53:31 <aparna>	math is a python library
+Dec 15 22:53:55 <aparna>	ceil is a function to round-off to the next highest integer
+Dec 15 22:53:57 <Anirudh>	how is module different from function
+Dec 15 22:54:28 <aparna>	module is a python file
+Dec 15 22:54:49 <Anirudh>	like the math file
+Dec 15 22:54:55 <aparna>	it can consist of functions, classes, variables etc.
+Dec 15 22:55:12 <neha___>	You can easily import them
+Dec 15 22:55:24 <neha___>	use the functions defined there
+Dec 15 22:55:35 <neha___>	similar to libraries
+Dec 15 22:55:46 <Anirudh>	okay
+Dec 15 22:56:23 <aparna>	you do #include<math.h> and use functions like sqrt in c right
+Dec 15 22:56:30 <aparna>	same way
+Dec 15 22:56:52 <neha___>	import statement is used here
+Dec 15 22:56:56 <aparna>	so you can use these functions in other scripts by importing
+Dec 15 22:57:02 <tonyStark>	ok
+Dec 15 22:57:05 <aparna>	115-116
+Dec 15 22:57:24 <neha___>	importing can be done in different ways depending on your need.
+Dec 15 22:57:27 <aparna>	imports file1 and uses file1.odd
+Dec 15 22:57:35 <aparna>	line 118-119
+Dec 15 22:57:40 <neha___>	Say I want one particular function from a module
+Dec 15 22:57:51 <neha___>	I will import only that function
+Dec 15 22:58:07 <neha___>	like in line 118
+Dec 15 22:58:14 <aparna>	lines 121-123
+Dec 15 22:58:22 <neha___>	from file1 import odd
+Dec 15 22:58:30 <aparna>	import * indicates all functions, classes etc.
+Dec 15 22:58:36 *	pooja (9d314706@gateway/web/freenode/ip.157.49.71.6) has joined #wcmentor16
+Dec 15 22:58:41 <Ashwin_>	Cool.
+Dec 15 22:58:44 <neha___>	Or say I might need other functions there later
+Dec 15 22:59:05 *	omkarp1 (~Thunderbi@120.62.176.44) has joined #wcmentor16
+Dec 15 22:59:08 <neha___>	So instead of having to retype that import statement with the new function,
+Dec 15 22:59:19 <neha___>	I can just say '*'
+Dec 15 22:59:25 <aparna>	ok next, reading and writing files
+Dec 15 22:59:29 <tonyStark>	okay
+Dec 15 22:59:36 <aparna>	you might have done it in c
+Dec 15 22:59:37 <neha___>	meaning, everything from that module.
+Dec 15 22:59:43 *	omkarp has quit (Ping timeout: 265 seconds)
+Dec 15 22:59:44 *	omkarp1 is now known as omkarp
+Dec 15 22:59:49 <niharock69>	so what import file do we use for math.h
+Dec 15 23:00:02 <aparna>	import math
+Dec 15 23:00:03 <neha___>	'math'
+Dec 15 23:00:12 <aparna>	thats a python library
+Dec 15 23:00:32 <neha___>	finish off files.
+Dec 15 23:00:33 <aparna>	We will move to files?
+Dec 15 23:00:39 <niharock69>	ok
+Dec 15 23:00:42 <aparna>	right
+Dec 15 23:00:44 <Ashwin_>	Yea
+Dec 15 23:00:44 <Anirudh>	ok
+Dec 15 23:00:53 <niharock69>	so we learnt data types functions and loops till now
+Dec 15 23:01:12 <aparna>	nicely summarised!
+Dec 15 23:01:41 <aparna>	126-131
+Dec 15 23:01:59 <aparna>	126 opens a file and creates a file object f
+Dec 15 23:02:26 <aparna>	read() is used to read a file
+Dec 15 23:02:40 <aparna>	1 in the bracket indicates bytes to be read
+Dec 15 23:02:52 <aparna>	so im reading 1 byte
+Dec 15 23:03:38 *	puneet has quit (Quit: Page closed)
+Dec 15 23:03:53 <aparna>	seek(5) is used to go to the 6th position in the file
+Dec 15 23:04:39 <aparna>	readline reads line by line
+Dec 15 23:04:53 <aparna>	write(s) writes string to a file
+Dec 15 23:05:14 <aparna>	thats all regarding files
+Dec 15 23:05:18 <neha___>	So we are good with Python basics now, I believe.
+Dec 15 23:05:26 <Ashwin_>	Yea!
+Dec 15 23:05:26 <niharock69>	yes
+Dec 15 23:05:38 <Ashwin_>	Just in an hour :)
+Dec 15 23:05:38 <Anirudh>	yes
+Dec 15 23:05:38 <Pavana>	Yes
+Dec 15 23:05:38 <neha___>	We shall move onto HTML basics now.
+Dec 15 23:05:42 <tonyStark>	yes
+Dec 15 23:05:48 <Shivani>	okay
+Dec 15 23:05:50 <Anirudh>	ok
+Dec 15 23:05:52 <niharock69>	thank u very much for teaching the python basics so nicely :)
+Dec 15 23:05:54 <neha___>	Open basic.html
+Dec 15 23:05:56 <niharock69>	ok
+Dec 15 23:06:26 *	pooja has quit (Ping timeout: 260 seconds)
+Dec 15 23:06:36 <shreyansh>	yes ..pretty much
+Dec 15 23:06:50 *	omkarp (~Thunderbi@120.62.176.44) has left #wcmentor16
+Dec 15 23:06:50 <neha___>	Okay so basically all the web documents today are html pages.
+Dec 15 23:07:07 <neha___>	Every html file has extension '.html'
+Dec 15 23:07:19 <neha___>	There are different versions of it.
+Dec 15 23:07:27 <tonyStark>	okay
+Dec 15 23:07:32 <neha___>	We shall see the most basic one
+Dec 15 23:07:47 <neha___>	You always start with <html> tag
+Dec 15 23:07:58 <neha___>	Some tags have a closing tag
+Dec 15 23:08:09 <ujdcodr>	https://www.codecademy.com/learn/python Learn python interactively
+Dec 15 23:08:17 <neha___>	i.e. a '/' before the tag name
+Dec 15 23:08:18 *	omkarp (~Thunderbi@120.62.176.44) has joined #wcmentor16
+Dec 15 23:08:50 <neha___>	Dude
+Dec 15 23:08:54 <aparna>	thank you, @ujdcodr
+**** BEGIN LOGGING AT Thu Dec 15 23:09:18 2016
+
+Dec 15 23:09:21 <aparna>	its a useful website, you guys can go through
+Dec 15 23:09:34 <neha___>	Yeah what was covered were just the real basic syntax.
+Dec 15 23:09:58 *	shreyansh_ (31237cbc@gateway/web/freenode/ip.49.35.124.188) has joined #wcmentor16
+Dec 15 23:10:01 <neha___>	So coming back to html tags
+Dec 15 23:10:22 <neha___>	head tag encloses the title tag
+Dec 15 23:10:35 <neha___>	You write your web page title inside the title tag
+Dec 15 23:10:57 <neha___>	Title is displayed on your browser when you open that page.
+Dec 15 23:11:06 *	shreyansh has quit (Ping timeout: 260 seconds)
+Dec 15 23:11:19 <aparna>	body of the html page is defined under body tag
+Dec 15 23:11:21 <neha___>	The visible content of the page is enclosed within the <body> tag
+Dec 15 23:11:45 *	ujdcodr has quit ()
+Dec 15 23:11:47 <aparna>	it may have headings, paras, links, images etc
+Dec 15 23:11:47 <neha___>	<h1> <h2>.....<h6>
+Dec 15 23:11:55 <neha___>	can be used to display headings
+Dec 15 23:12:12 <aparna>	paragraphs are displayed with <p> tag
+Dec 15 23:12:18 <neha___>	h1 being the one with highest font size
+Dec 15 23:12:25 <neha___>	Clear so far?
+Dec 15 23:12:27 <aparna>	links are displayed with anchor tag
+Dec 15 23:12:42 <aparna>	that is, <a>...</a>
+Dec 15 23:13:01 <shreyansh_>	yes
+Dec 15 23:13:03 <Anirudh>	yes
+Dec 15 23:13:09 <aparna>	next attributes
+Dec 15 23:13:10 <tonyStark>	okay! yes
+Dec 15 23:13:13 <Pavana>	Yes
+Dec 15 23:13:21 <neha___>	href="link of the page to be ferred"
+Dec 15 23:13:42 <aparna>	they are used for additional information about the tag
+Dec 15 23:13:48 <aparna>	like href for <a>
+Dec 15 23:14:15 <neha___>	Okay now save that file
+Dec 15 23:14:23 <neha___>	and open it on a browser
+Dec 15 23:14:34 <neha___>	You will know how it looks like.
+Dec 15 23:15:46 <aparna>	right, we will move on to urllib now
+Dec 15 23:15:57 <neha___>	Saw the page?
+Dec 15 23:16:01 <niharock69>	yes
+Dec 15 23:16:03 <tonyStark>	yes
+Dec 15 23:16:19 <aparna>	urllib is a python package
+Dec 15 23:16:30 <neha___>	http://www.w3schools.com/html/ for more of HTML
+Dec 15 23:16:58 <aparna>	usually all python packages can be installed with
+Dec 15 23:17:05 <aparna>	pip install <package_name>
+Dec 15 23:17:09 <neha___>	You can ask your friends to join us now.
+Dec 15 23:17:27 <aparna>	pip install urllib2
+Dec 15 23:17:28 <Ashwin_>	Is that Linux command?
+Dec 15 23:17:42 <aparna>	yes
+Dec 15 23:18:22 <Ashwin_>	How to install on windows?
+Dec 15 23:18:45 <aparna>	so to use this package, you import it
+Dec 15 23:18:52 <aparna>	136-138
+Dec 15 23:19:15 *	omkarp has quit (Quit: omkarp)
+Dec 15 23:19:23 <aparna>	urlopen is used to make connection with a url
+Dec 15 23:19:30 <aparna>	the url is passed as a parameter
+Dec 15 23:19:51 <aparna>	url.read returns the html page of that webpage
+Dec 15 23:19:56 <aparna>	it is stored in content
+Dec 15 23:21:01 <aparna>	http://www.imdb.com/chart/top
+Dec 15 23:21:11 <neha___>	One minute.
+Dec 15 23:21:27 <aparna>	you can open this link, we will be using this for scraping
+Dec 15 23:21:32 <neha___>	Basically we are doing this to scrap content from the web pages
+Dec 15 23:21:32 <Anirudh>	It is saying that the module does not exit
+Dec 15 23:21:37 <tushaar>	Content? Where?
+Dec 15 23:21:46 <aparna>	ok see
+Dec 15 23:21:55 <neha___>	Open bs.py
+Dec 15 23:22:06 <aparna>	line 136-138
+Dec 15 23:22:29 <tushaar>	It runs without errors.
+Dec 15 23:22:30 <aparna>	i am storing the html page in the variable content
+Dec 15 23:22:40 <neha___>	*scrape
+Dec 15 23:22:42 <tushaar>	But where is the html stored?
+Dec 15 23:22:46 *	Pavana has quit (Ping timeout: 260 seconds)
+Dec 15 23:22:57 <niharock69>	no matching distribution found for urllib
+Dec 15 23:23:29 <neha___>	@tushaar We are trying to scrape contents from that url specified
+Dec 15 23:23:35 <neha___>	That is the web page
+Dec 15 23:23:41 <neha___>	That is the html page
+Dec 15 23:23:42 <aparna>	@niharock69, import urllib2 is working?
+Dec 15 23:23:45 <neha___>	Clear?
+Dec 15 23:23:50 <tushaar>	No.
+Dec 15 23:24:01 <Anirudh>	when itype import urllib2 it says that there is no module by that name
+Dec 15 23:24:05 <tushaar>	We are scraping it.
+Dec 15 23:24:07 <tushaar>	Fine?
+Dec 15 23:24:09 <niharock69>	no not working
+Dec 15 23:24:30 <aparna>	did you run pip install urllib2 ?
+Dec 15 23:24:44 <Anirudh>	its windows
+Dec 15 23:24:53 <Anirudh>	do i still do that
+Dec 15 23:25:48 <aparna>	windows, its different. I never worked on python on windows
+Dec 15 23:25:56 <aparna>	so you will have to google
+Dec 15 23:26:03 <niharock69>	pip install also doesnt work
+Dec 15 23:26:31 <neha___>	import urllib.request
+Dec 15 23:26:33 <aparna>	for ubuntu users, this should work
+Dec 15 23:26:36 <neha___>	try that.
+Dec 15 23:27:03 <tushaar>	Wait, what should be the output of the code?
+Dec 15 23:27:13 <neha___>	Depends on the Python version also
+Dec 15 23:27:18 <aparna>	@niharock69, ubuntu?
+Dec 15 23:28:07 *	Ashwin_ has quit (Quit: Page closed)
+Dec 15 23:28:09 <Anirudh>	what should be done after import ulrlib.request
+Dec 15 23:28:36 <neha___>	On Ubuntu, installation is straight forward.
+Dec 15 23:28:42 <aparna>	pip --version
+Dec 15 23:28:48 <aparna>	check if this works
+Dec 15 23:28:58 <aparna>	then pip install should worl
+Dec 15 23:29:03 <aparna>	work*
+Dec 15 23:29:16 <neha___>	urllib.request.urlopen("ssscscc")
+Dec 15 23:29:43 <neha___>	@tushaar we shall get there in some time.
+Dec 15 23:29:52 <tushaar>	Okay.
+Dec 15 23:30:24 <neha___>	Meanwhile, open that link which aparna sent.
+Dec 15 23:30:36 <neha___>	http://www.imdb.com/chart/top
+Dec 15 23:31:21 *	vilas has quit (Quit: Page closed)
+Dec 15 23:31:21 *	vilas has quit (Quit: Page closed)
+Dec 15 23:31:28 <neha___>	On chrome preferably
+Dec 15 23:31:29 <niharock69>	urllib3 worked i used google to debug
+Dec 15 23:31:35 <niharock69>	will it work for this session?
+Dec 15 23:31:40 <aparna>	yes
+Dec 15 23:31:49 <niharock69>	ok :)
+Dec 15 23:31:55 <neha___>	right click, press inspect
+Dec 15 23:32:08 <neha___>	@niharock69 good.
+Dec 15 23:32:44 <neha___>	You see the html page there
+Dec 15 23:32:47 <neha___>	right?
+Dec 15 23:33:06 <niharock69>	yes
+Dec 15 23:33:24 <neha___>	Now that is the html file corresponding to http://www.imdb.com/chart/top this page.
+Dec 15 23:34:05 <aparna>	if you want to see the enclosing html tag of shawshank redemption, you right click on that
+Dec 15 23:34:08 <neha___>	We scrape the data required, from this page using this information using the 2 Python modules urlib2 and beautifulsoup
+Dec 15 23:34:11 <aparna>	and inspect
+Dec 15 23:34:32 <aparna>	you see that it is enclosed in <a> tag
+Dec 15 23:34:40 <neha___>	Get the idea behind the code?
+Dec 15 23:35:02 <aparna>	which is under <td> tag
+Dec 15 23:35:21 <aparna>	and has class attribute as titleColumn
+Dec 15 23:35:31 <aparna>	Are you guys getting it?
+Dec 15 23:35:38 <neha___>	tell them what we are extracting first
+Dec 15 23:35:41 <neha___>	the output
+Dec 15 23:35:58 <aparna>	Please respond
+Dec 15 23:36:07 <tonyStark>	yes
+Dec 15 23:36:15 <niharock69>	wheres the td tag
+Dec 15 23:36:48 <niharock69>	okkk got it
+Dec 15 23:36:50 <neha___>	See we are interested in movie titles and correponding ratings
+Dec 15 23:36:57 <aparna>	right
+Dec 15 23:37:08 <aparna>	this is how we see the enclosing html tags
+Dec 15 23:37:13 <neha___>	Hence, we are extracting that data from the page and storing in a .txt file
+Dec 15 23:37:33 <aparna>	for this page we will scrape movie titles and their rating and store them in a file
+Dec 15 23:37:58 <neha___>	So now we need to check in side which tags can these information be obtained from.
+Dec 15 23:38:06 <niharock69>	okkk
+Dec 15 23:38:07 <aparna>	for this extraction we need beautifulsoup
+Dec 15 23:38:19 <neha___>	Come on check that and tell us.
+Dec 15 23:38:32 <shreyansh_>	@aparna ..where i should look for td tag?
+Dec 15 23:39:13 <aparna>	ok, so when you right click on the shawshank redemptio and inspect, you are shown an a tag right?
+Dec 15 23:39:38 <niharock69>	yes
+Dec 15 23:39:49 <aparna>	@shreyansh_ ?
+Dec 15 23:40:21 <shreyansh_>	got it!
+Dec 15 23:40:23 <aparna>	there is a td tag right above it
+Dec 15 23:40:25 <aparna>	ok
+Dec 15 23:40:35 <neha___>	<td class="titleColumn">       1.       <a href="/title/tt0111161/?pf_rd_m=A2FGELUUNOQJNL&amp;pf_rd_p=2398042102&amp;pf_rd_r=06NPKKGGZMFPCW08SF8F&amp;pf_rd_s=center-1&amp;pf_rd_t=15506&amp;pf_rd_i=top&amp;ref_=chttp_tt_1" title="Frank Darabont (dir.), Tim Robbins, Morgan Freeman">The Shawshank Redemption</a>         <span class="secondaryInfo">(1994)</span>     </td>
+Dec 15 23:40:53 <aparna>	beautifulsoup is a python library for pulling out data from html pages
+Dec 15 23:41:10 <shreyansh_>	yeah ..
+Dec 15 23:41:34 <tonyStark>	yes
+Dec 15 23:41:37 <aparna>	can be installed with pip install beautifulsoup4
+Dec 15 23:41:46 <niharock69>	yes done
+Dec 15 23:42:08 <neha___>	You use urlib2 module to access the particular url and beautifulsoup to extract content from the html page.
+Dec 15 23:42:37 <neha___>	So line 1-5 understood right?
+Dec 15 23:42:43 <aparna>	yes with urllib2, you get the html page and parse it with beautifulsoup
+Dec 15 23:43:14 <niharock69>	parse it meaning?
+Dec 15 23:43:18 <tushaar>	Could not find a version that satisfies the requirement beautifulsoap4 (from versions: )
+Dec 15 23:43:21 <tushaar>	No matching distribution found for beautifulsoap4
+Dec 15 23:43:43 <aparna>	spelling mistake @tushaar
+Dec 15 23:43:52 <tushaar>	Oh!
+Dec 15 23:43:56 <aparna>	beautifulsoup4
+Dec 15 23:43:56 <tushaar>	Thanks.
+Dec 15 23:44:27 *	tonyStark (75d8ec92@gateway/web/freenode/ip.117.216.236.146) has left #wcmentor16
+Dec 15 23:44:34 <Anirudh>	how to install on windows
+Dec 15 23:45:32 <neha___>	@Anirudh need to Google that
+Dec 15 23:45:45 <neha___>	I'd suggest you install Ubuntu.
+Dec 15 23:45:46 <niharock69>	@Anirudh pip install beautifulsoup4 on cmd
+Dec 15 23:45:55 <aparna>	@niharock69, parse meaning just break it into components analyze
+Dec 15 23:45:56 <neha___>	You will definitely need it.
+Dec 15 23:46:12 <aparna>	components and analyze*
+Dec 15 23:46:47 <neha___>	Moving on 
+Dec 15 23:46:51 <niharock69>	ok
+Dec 15 23:46:54 <neha___>	Check line 6
+Dec 15 23:47:06 <neha___>	*5
+Dec 15 23:47:24 <neha___>	Parse the html in the 'content' variable, and store it in Beautiful Soup format
+Dec 15 23:47:43 <neha___>	Which is stored in 'soup'
+Dec 15 23:48:28 <aparna>	@Anirudh pip install should work even on windows, but check if you have pip installed 
+Dec 15 23:48:38 <neha___>	A few functions in beautifulsoup module:
+Dec 15 23:48:48 <neha___>	soup.<tag>: Returns the content between opening and closing tag including tag.
+Dec 15 23:49:02 <neha___>	ex: soup.title
+Dec 15 23:49:18 <neha___>	gives <title> some title</title> as the output
+Dec 15 23:50:00 <neha___>	soup.a etc. give similar outputs
+Dec 15 23:50:19 <neha___>	Following so far?
+Dec 15 23:50:24 <shreyansh_>	yes
+Dec 15 23:50:32 <Shivani>	yes
+Dec 15 23:51:08 <neha___>	Using the above mentioned soup.tag function you just get one occurence of it as the output
+Dec 15 23:51:23 <neha___>	What if I wanted all such occurences?
+Dec 15 23:51:24 <niharock69>	yes
+Dec 15 23:51:38 <neha___>	Then, you use 'find_all'
+Dec 15 23:51:57 <neha___>	say, soup.find_all("a")
+Dec 15 23:52:20 <neha___>	Gives all 'a' tags and its corresponding contents as the output.
+Dec 15 23:52:43 <neha___>	Now coming back to our imdb page
+Dec 15 23:52:51 <neha___>	We wanted movie titles.
+Dec 15 23:52:59 <neha___>	Which tag is it present in?
+Dec 15 23:53:24 <tushaar>	td
+**** BEGIN LOGGING AT Thu Dec 15 23:53:30 2016
+
+Dec 15 23:53:48 <aparna>	were you able to install beautifulsoup?
+Dec 15 23:53:52 <neha___>	but just saying td will noy be enough
+Dec 15 23:53:59 <neha___>	can anyone tell why?
+Dec 15 23:54:04 <Anirudh>	no
+Dec 15 23:54:12 <neha___>	Hint: I want "only" the movie titles
+Dec 15 23:54:16 <shreyansh_>	need to mention class : titlecolumn
+Dec 15 23:54:24 <Anirudh>	im trying
+Dec 15 23:54:29 <neha___>	@shreyansh correct.
+Dec 15 23:54:39 <aparna>	Alright
+Dec 15 23:54:53 <neha___>	Because plain td would fetch other information that is not necessary in this context.
+Dec 15 23:55:00 <tushaar>	What is class: titlecolumn?
+Dec 15 23:55:14 <neha___>	Now come to line 6 in bs.py
+Dec 15 23:55:38 <neha___>	You group things alike using class
+Dec 15 23:55:54 <neha___>	titlecolumn is the class name
+Dec 15 23:56:10 <tushaar>	OH
+Dec 15 23:56:25 <neha___>	and we know that the movie titles belong to that class because we inspected :D
+Dec 15 23:57:32 <neha___>	Similarly, ratings can be found in ratingColumn imdbRating class, hence rating=soup.find_all("td",{"class":"ratingColumn imdbRating"})
+Dec 15 23:57:34 <aparna>	right, so collect those td tags and store in 'title'
+Dec 15 23:57:41 <aparna>	line 6
+Dec 15 23:58:13 <aparna>	now similarly you can inspect for rating
+Dec 15 23:58:37 <aparna>	you see that class for that is ratingColumn imdbRating
+Dec 15 23:58:40 <neha___>	Now make lists
+Dec 15 23:59:00 <aparna>	title and rating are our lists
+Dec 15 23:59:25 <aparna>	but they contain everything, the tags,attributes etc,
+Dec 15 23:59:42 <aparna>	we want only the content inside them
+Dec 16 00:00:08 <aparna>	that is :The Shawshank redemption
+Dec 16 00:00:13 <aparna>	and so on
+Dec 16 00:00:15 <neha___>	So, use the find function
+Dec 16 00:00:27 <neha___>	and getText from there
+Dec 16 00:00:49 <niharock69>	yes
+Dec 16 00:00:59 <aparna>	find will find the a tags inside td tag
+Dec 16 00:01:24 <aparna>	and getText will give you the actual content
+Dec 16 00:02:02 *	Samvid has quit (Quit: Leaving)
+Dec 16 00:02:18 <neha___>	This way you extract required content from every element fetched and stored in title and rating
+Dec 16 00:02:29 <neha___>	and append them to the lists titles and ratings
+Dec 16 00:02:39 <aparna>	clear so far?
+Dec 16 00:02:51 <neha___>	This is done 10-16
+Dec 16 00:02:58 <neha___>	Any doubts?
+Dec 16 00:03:02 <niharock69>	so basically whichever title has a in it it will be inputted
+Dec 16 00:03:04 <niharock69>	right?
+Dec 16 00:04:08 <neha___>	Not so clear
+Dec 16 00:04:12 <aparna>	see the title list has all the movie names
+Dec 16 00:04:20 <neha___>	Your doubt @niharock69
+Dec 16 00:04:24 <aparna>	i.e all td tags
+Dec 16 00:04:35 <shreyansh_>	is required content btwn <a>....</a>?..for title
+Dec 16 00:04:47 <neha___>	See when you inspect, inside which tag can you see the movie title?
+Dec 16 00:05:03 <tushaar>	a tag
+Dec 16 00:05:14 <neha___>	Correct. @shreyansh @tushaar
+Dec 16 00:05:19 <tushaar>	Oh, that's why, find('a').
+Dec 16 00:05:26 <neha___>	Yes.
+Dec 16 00:05:38 <shreyansh_>	wokay ..got it
+Dec 16 00:05:50 <neha___>	Great :D
+Dec 16 00:06:02 <neha___>	Almost there,then
+Dec 16 00:06:19 <neha___>	All that is remaining now is to write the data extracted to a file
+Dec 16 00:06:28 <aparna>	@niharock69, is your doubt cleared?
+Dec 16 00:06:34 <neha___>	We name it imdb.txt
+Dec 16 00:07:32 <neha___>	Nihar, say something. Clear?
+Dec 16 00:07:47 <neha___>	Shall we go ahead?
+Dec 16 00:07:55 <shreyansh_>	yes
+Dec 16 00:08:01 <aparna>	ok
+Dec 16 00:08:13 <neha___>	f=open('imdb.txt','w');
+Dec 16 00:08:14 <niharock69>	ohhh okkkk
+Dec 16 00:08:16 <niharock69>	got it
+Dec 16 00:08:17 <aparna>	so we iterate over the titles and rating list
+Dec 16 00:08:18 <niharock69>	yess
+Dec 16 00:08:20 <neha___>	open it in write mode
+Dec 16 00:08:35 <aparna>	that 'w' in open is for write mode
+Dec 16 00:08:49 <neha___>	write the title and rating pair together
+Dec 16 00:08:53 <neha___>	using 'zip'
+Dec 16 00:10:00 <aparna>	writing to file is done with f.write()
+Dec 16 00:10:12 <aparna>	so this will write to file
+Dec 16 00:10:35 <neha___>	encode to utf8
+Dec 16 00:11:13 <shreyansh_>	why..?
+Dec 16 00:11:21 <neha___>	to ensure they are scraped consistently
+Dec 16 00:11:50 <neha___>	finally write a newline to the file
+Dec 16 00:12:08 <aparna>	gedit on ubuntu uses utf-8 character encoding
+Dec 16 00:13:01 <neha___>	Now, you run this code, and you have succesfully extracted movie titles and their corresponding imdb ratings and written them to a local file
+Dec 16 00:13:47 <neha___>	This was a very simple program. This way you can extract data on various scales and do a lot with it.
+Dec 16 00:13:48 <aparna>	https://ideone.com/4F4Aen
+Dec 16 00:14:03 <aparna>	output would be somewhat like this
+Dec 16 00:14:08 <niharock69>	okkkkkk
+Dec 16 00:14:14 <aparna>	don't bother the errors
+Dec 16 00:14:25 <aparna>	i have copy-pasted only the first 11
+Dec 16 00:14:36 <aparna>	there are 250
+Dec 16 00:15:23 <neha___>	There it is. So this was a brief session on web scraping using beautifulsoup
+Dec 16 00:15:26 <aparna>	was anybody able to run the code?
+Dec 16 00:15:43 <aparna>	python bs.py
+Dec 16 00:15:49 <neha___>	Hope you guys got something out of this.
+Dec 16 00:15:54 <aparna>	Thats how you run
+Dec 16 00:16:17 <neha___>	Any doubts?
+Dec 16 00:16:54 <aparna>	Since many of you had installation problems, you can ask us later if you have any doubts
+Dec 16 00:17:01 <aparna>	aparnapl99@gmail.com
+Dec 16 00:17:09 <shreyansh_>	@aparna ..i have copy-pasted...???
+Dec 16 00:17:14 <neha___>	neharao.nbr@gmail.com
+Dec 16 00:17:37 <ranjith>	quit
+Dec 16 00:17:47 <aparna>	@shreyansh, the code createa file named imdb.txt in your system
+Dec 16 00:17:49 <neha___>	Contents of the output, i.e. imdb.txt @shreyansh
+Dec 16 00:17:56 <niharock69>	i m using urllib3 and hence i have the change syntaxes
+Dec 16 00:18:25 *	Shivani has quit ()
+Dec 16 00:18:25 <aparna>	i copy-pasted first 10 lines of it for you on that page
+Dec 16 00:18:30 <neha___>	@niharock69 shouldn't be much of a trouble.
+Dec 16 00:18:34 *	ranjith has quit (Quit: Leaving)
+Dec 16 00:19:09 <neha___>	Well, since none of you have asked, let me tell something.
+Dec 16 00:19:19 <shreyansh_>	if i run this code i will get data of all 250 movies ? in imdb.txt
+Dec 16 00:19:23 <neha___>	One can always use regular expressions to do this.
+Dec 16 00:19:35 <neha___>	In fact that is faster.
+Dec 16 00:19:43 <aparna>	yes @shreyansh_
+Dec 16 00:20:02 <shreyansh_>	little explanation plz
+Dec 16 00:20:02 <neha___>	But, even with slight changes in the web page, the regular expression might have to be changed
+Dec 16 00:20:24 <shreyansh_>	little explanation plz
+Dec 16 00:20:49 <neha___>	@shreyansh how many movies are there on that site?
+Dec 16 00:21:07 <shreyansh_>	250
+Dec 16 00:21:34 <neha___>	Yeah, so how many entries will be there in the output file?
+Dec 16 00:21:44 <neha___>	What is the doubt there :P
+Dec 16 00:21:57 <tushaar>	A file was created, but,
+Dec 16 00:22:15 <tushaar>	To get rid of this warning, change this:
+Dec 16 00:22:15 <tushaar>	 BeautifulSoup([your markup])
+Dec 16 00:22:15 <tushaar>	to this:
+Dec 16 00:22:15 <tushaar>	 BeautifulSoup([your markup], "lxml")
+Dec 16 00:22:15 <tushaar>	  markup_type=markup_type))
+Dec 16 00:22:26 <tushaar>	i got that.
+Dec 16 00:22:46 <aparna>	just a warning right?
+Dec 16 00:22:58 <tushaar>	Yeah.
+Dec 16 00:23:01 <shreyansh_>	@neha ,no little confused..now clear
+Dec 16 00:23:08 <tushaar>	What does it mean?
+Dec 16 00:23:11 <neha___>	Good :)
+Dec 16 00:23:26 <aparna>	ok so there are many parsers
+Dec 16 00:23:34 <aparna>	lxml is one of them
+Dec 16 00:23:42 <neha___>	It is asking to specify markup
+Dec 16 00:23:49 <tushaar>	Oh.
+Dec 16 00:23:55 <himadri>	why are regular expressions faster?
+Dec 16 00:24:27 <neha___>	Okay since many of you are in first year, I am not really sure if you guys know what regex are
+Dec 16 00:24:38 <neha___>	Because you don't have to import a module
+Dec 16 00:24:42 <neha___>	call a function
+Dec 16 00:24:50 <neha___>	run that code
+Dec 16 00:24:54 <neha___>	then get the data
+Dec 16 00:25:28 <neha___>	But in case you want lot of data, which is usually the case, you resort to modules
+Dec 16 00:25:36 <neha___>	Because they are robust.
+Dec 16 00:25:52 <neha___>	Simple data extraction can be done using regex also
+Dec 16 00:26:04 <neha___>	So it is a matter of choise based on your need
+Dec 16 00:26:11 <neha___>	time or robustness
+Dec 16 00:26:17 <neha___>	Clear?
+Dec 16 00:26:18 <himadri>	Cool
+Dec 16 00:26:22 <himadri>	Thanks. 
+Dec 16 00:26:33 <neha___>	So, we shall conclude. :)
+Dec 16 00:26:44 <neha___>	Brief intro from your side 
+Dec 16 00:27:04 <neha___>	Introduce yourself before you leave :)
+Dec 16 00:27:28 <tushaar>	Tushaar, 2nd Year IT.
+Dec 16 00:27:49 *	shruthi has quit (Quit: Page closed)
+Dec 16 00:27:50 <himadri>	Himadri, 2nd Year IT.
+Dec 16 00:27:55 <niharock69>	Nihar, 1st Year IT
+Dec 16 00:28:00 <shreyansh_>	Shreyansh,2nd year IT
+Dec 16 00:28:27 <neha___>	Everyone here, is from IT? :P
+Dec 16 00:28:36 <aparna>	XD
+Dec 16 00:29:08 <neha___>	Good to know. 
+Dec 16 00:29:22 <aparna>	so, in case  you have doubts, please mail us
+Dec 16 00:29:26 <Anirudh>	Anirudh 1st Year EC
+Dec 16 00:29:28 <himadri>	atleast everyone awake is xP
+Dec 16 00:29:36 <neha___>	Go through those links. You can always ping us if you have any doubts.
+Dec 16 00:29:43 *	Anirudh (75c067de@gateway/web/freenode/ip.117.192.103.222) has left #wcmentor16
+Dec 16 00:29:49 <aparna>	wait, ill share a few links
+Dec 16 00:30:04 <shreyansh_>	he left :)
+Dec 16 00:30:52 <aparna>	Beautifulsoup documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Dec 16 00:31:03 <aparna>	bs: http://www.pythonforbeginners.com/python-on-the-web/beautifulsoup-4-python/
+Dec 16 00:31:18 <aparna>	Python documentation: https://docs.python.org/3/tutorial/index.html
+Dec 16 00:32:12 <neha___>	HTML : http://www.w3schools.com/html/
+Dec 16 00:32:13 <aparna>	I will be posting the logs of this session to the github link 
+Dec 16 00:32:31 <aparna>	https://github.com/lapa19/wcmentor16
+Dec 16 00:32:40 <aparna>	you can go through
+Dec 16 00:32:52 <neha___>	Done no?
+Dec 16 00:32:59 <aparna>	yup
+Dec 16 00:33:06 <neha___>	haahhah
+Dec 16 00:33:06 <aparna>	right, so we are done
+Dec 16 00:33:17 <aparna>	hope you got to learn something
+Dec 16 00:33:33 <neha___>	Okay guys, good night.
+Dec 16 00:34:12 <aparna>	gn !
+Dec 16 00:34:27 <shreyansh_>	Good bye..
+Dec 16 00:34:35 *	tushaar (~tushaar@157.49.67.98) has left #wcmentor16
+Dec 16 00:34:42 *	shreyansh_ has quit (Quit: Page closed)
+Dec 16 00:34:43 *	You have left channel #wcmentor16 ("Leaving")
+**** ENDING LOGGING AT Fri Dec 16 00:34:43 2016
